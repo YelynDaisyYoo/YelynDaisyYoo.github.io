@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f2f5;
+  }
+  
+  .container {
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 30px;
+  }
+  
+  /*개인정보*/
+  .info ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2em;
+  }
+  
+  .info li {
+    margin-bottom: 15px;
+  }
+  
+  /*사진*/
+  .photo {
+    border: 1px solid #999;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  .photo img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+  }
+  
+  /*수업*/
+  .lesson {
+    border: 1px solid #666;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  #lessons {
+    margin-top: 20px;
+  }
+  
+  /*버튼*/
+  .hidden {
+    display: none;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: navy;
+  }
+  
